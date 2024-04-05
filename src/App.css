@@ -54,7 +54,6 @@
 
   /* ============= Responsive Typography ============ */
   @media screen and (max-width: 992px) {
-
     :root {
       /* 0.5 rem = 8px, 1rem = 16px */
       --big-font-size: 2.75rem;
@@ -65,10 +64,11 @@
       --small-font-size: 0.813rem;
       --smaller-font-size: 0.75rem;
     }
-
-
   }
 
+}
 
+/* ============= BASE ============ */
+* {
 
 }
