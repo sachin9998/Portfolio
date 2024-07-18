@@ -1,19 +1,14 @@
 import "./App.css";
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
 
 function App() {
-  return (
-    <>
-      <nav className="dekstop-nav">
-
-        <div className="logo">
-          Sachin Alam
-        </div>
-
-      </nav>
-
-
-    </>
-  );
+	return (
+		<div className="container">
+			<Navbar />
+			<Home />
+		</div>
+	);
 }
 
 export default App;
