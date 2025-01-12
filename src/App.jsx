@@ -111,6 +111,51 @@ function App() {
           <div href="" className="card">
             <div className="project-info">
               <div className="project-bio">
+                <h3>Real Time Code Editor</h3>
+                <p>ReactJS, Socket.io</p>
+              </div>
+
+              <div className="project-link">
+                <a
+                  href="https://github.com/sachin9998/RealTimeCodeEditor"
+                  target="_blank"
+                >
+                  <FaGithub /> Visit
+                </a>
+                <a href="#" target="_blank">
+                  <i className="fas fa-globe"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* <!-- Porject 2 --> */}
+
+          <div href="" className="card">
+            <div className="project-info">
+              <div className="project-bio">
+                <h3>Financely - Finance Tracker</h3>
+                <p>ReactJS, Firebase</p>
+              </div>
+
+              <div className="project-link">
+                <a
+                  href="https://github.com/sachin9998/Financely"
+                  target="_blank"
+                >
+                  <FaGithub /> Visit
+                </a>
+                <a href="https://financelytracker.vercel.app/" target="_blank">
+                  <i className="fas fa-globe"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* <!-- Project 3 --> */}
+          <div href="" className="card">
+            <div className="project-info">
+              <div className="project-bio">
                 <h3>MovieO - Movie Database App</h3>
                 <p>Tailwind CSS, React, Redux Toolkit</p>
               </div>
@@ -126,44 +171,6 @@ function App() {
                   <i className="fas fa-globe"></i>
                   <FaGlobe />
                 </a> */}
-              </div>
-            </div>
-          </div>
-
-          {/* <!-- Project 2 --> */}
-          <div href="" className="card">
-            <div className="project-info">
-              <div className="project-bio">
-                <h3>Project Two</h3>
-                <p>React, Redux, SASS</p>
-              </div>
-
-              <div className="project-link">
-                <a href="#" target="_blank">
-                  <FaGithub /> Visit
-                </a>
-                <a href="#" target="_blank">
-                  <i className="fas fa-globe"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          {/* <!-- Porject 3 --> */}
-          <div href="" className="card">
-            <div className="project-info">
-              <div className="project-bio">
-                <h3>Project Three</h3>
-                <p>React, Redux, SASS</p>
-              </div>
-
-              <div className="project-link">
-                <a href="#" target="_blank">
-                  <FaGithub /> Visit
-                </a>
-                <a href="#" target="_blank">
-                  <i className="fas fa-globe"></i>
-                </a>
               </div>
             </div>
           </div>
