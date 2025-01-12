@@ -1,4 +1,5 @@
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaGlobe } from "react-icons/fa6";
+import { IoCloudDownload } from "react-icons/io5";
 import "./App.css";
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
           <div className="container">
             {/* <!-- Logo --> */}
             <h1 id="logo">
-              <a href="https://github.com/Sachin9998">
+              <a className="logo-link" href="https://github.com/Sachin9998">
                 {/* <img src="./assets/logo.png" alt="Your Logo" /> */}
                 Sachin<span className="">Alam</span>.in
               </a>
@@ -28,7 +29,7 @@ function App() {
               </li>
               <li>
                 <a className="nav-link" href="#">
-                  BlOG
+                  BLOG
                 </a>
               </li>
               <li>
@@ -69,8 +70,11 @@ function App() {
 
             <p>
               Passionate Computer Engineering graduate with expertise in
-              full-stack development, including HTML, CSS, JavaScript, React.js,
-              Node.js, Express.js and MongoDB.
+              full-stack development, including{" "}
+              <strong>
+                HTML, CSS, JavaScript, React.js, Node.js, Express.js
+              </strong>{" "}
+              and <strong>MongoDB</strong>.
             </p>
           </div>
           <div className="hero-btns">
@@ -83,12 +87,12 @@ function App() {
             </a>
 
             <a
-              href="https://github.com/sachin9998"
+              href={import.meta.env.VITE_RESUME_LINK}
               className="btn btn-secondary"
               target="_blank"
             >
-              {/* <FaGithub size={16} /> */}
-              Github
+              {/* <IoCloudDownload /> */}
+              Download Resume
             </a>
           </div>
         </section>
@@ -104,49 +108,65 @@ function App() {
 
         <article className="project">
           {/* <!-- Project 1 --> */}
-          {/* <div href="" className="card">
-          <div className="project-info">
-            <div className="project-bio">
-              <h3>Project One</h3>
-              <p>React, Redux, SASS</p>
-            </div>
+          <div href="" className="card">
+            <div className="project-info">
+              <div className="project-bio">
+                <h3>MovieO - Movie Database App</h3>
+                <p>Tailwind CSS, React, Redux Toolkit</p>
+              </div>
 
-            <div className="project-link">
-              <a href="#" target="_blank"><i className="fab fa-github"></i></a>
-              <a href="#" target="_blank"><i className="fas fa-globe"></i></a>
+              <div className="project-link">
+                <a
+                  href="https://github.com/sachin9998/MovieInfo_App"
+                  target="_blank"
+                >
+                  <FaGithub /> Visit
+                </a>
+                {/* <a href="https://movieoinfo.vercel.app/" target="_blank">
+                  <i className="fas fa-globe"></i>
+                  <FaGlobe />
+                </a> */}
+              </div>
             </div>
           </div>
-        </div> */}
 
-          {/* <!-- Project 2 -->
-        <div href="" className="card">
-          <div className="project-info">
-            <div className="project-bio">
-              <h3>Project Two</h3>
-              <p>React, Redux, SASS</p>
-            </div>
+          {/* <!-- Project 2 --> */}
+          <div href="" className="card">
+            <div className="project-info">
+              <div className="project-bio">
+                <h3>Project Two</h3>
+                <p>React, Redux, SASS</p>
+              </div>
 
-            <div className="project-link">
-              <a href="#" target="_blank"><i className="fab fa-github"></i></a>
-              <a href="#" target="_blank"><i className="fas fa-globe"></i></a>
-            </div>
-          </div>
-        </div> */}
-
-          {/* <!-- Porject 3 -->
-        <div href="" className="card">
-          <div className="project-info">
-            <div className="project-bio">
-              <h3>Project Three</h3>
-              <p>React, Redux, SASS</p>
-            </div>
-
-            <div className="project-link">
-              <a href="#" target="_blank"><i className="fab fa-github"></i></a>
-              <a href="#" target="_blank"><i className="fas fa-globe"></i></a>
+              <div className="project-link">
+                <a href="#" target="_blank">
+                  <FaGithub /> Visit
+                </a>
+                <a href="#" target="_blank">
+                  <i className="fas fa-globe"></i>
+                </a>
+              </div>
             </div>
           </div>
-        </div> */}
+
+          {/* <!-- Porject 3 --> */}
+          <div href="" className="card">
+            <div className="project-info">
+              <div className="project-bio">
+                <h3>Project Three</h3>
+                <p>React, Redux, SASS</p>
+              </div>
+
+              <div className="project-link">
+                <a href="#" target="_blank">
+                  <FaGithub /> Visit
+                </a>
+                <a href="#" target="_blank">
+                  <i className="fas fa-globe"></i>
+                </a>
+              </div>
+            </div>
+          </div>
 
           {/* <!-- Project 4 --> */}
           {/* <div href="" className="card">
